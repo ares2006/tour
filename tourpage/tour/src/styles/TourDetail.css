@@ -1,0 +1,54 @@
+.tour-detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  animation: fadeIn 0.6s ease;
+}
+
+.tour-detail-img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  transition: transform 0.4s ease;
+}
+
+.tour-detail-img:hover {
+  transform: scale(1.02);
+}
+
+.tour-detail-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.tour-detail-info {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #555;
+}
+
+.book-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background: #ff7043;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+  background: #ff5722;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
